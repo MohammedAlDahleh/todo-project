@@ -1,4 +1,4 @@
-' use strict ' ;
+/*' use strict ' ;
 var name = prompt  ("Please enter his/her name ?");
 console.log("Your name :" + name);
 var gender =  prompt ("Please enter your gender his/her ?");
@@ -33,4 +33,4 @@ alert(`Welcome Mr ${name}`);
 }else{
     alert("Welcome")
 }
-alert ("hello");
+alert ("hello");*/

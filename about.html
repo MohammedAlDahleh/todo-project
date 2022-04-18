@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=H, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/about.css" />
     <title>About</title>
     
 </head>
@@ -12,17 +13,22 @@
     <header>
         <img src="./assets/Task img.png"  alt="task image" style="width:100px;">
         <h1>About Us</h1>
-        <a href="./index.html">Home page</a>
-        <a href="#contact">Contact us</a>
+        <ul>
+           <li><a class="active" href="./index.html">Home page</a></li> 
+           <li><a href="#contact">Contact us</a></li> 
+        </ul>
+       
     </header>
     <br>
 </br>
 
         <section>
-            <img src="./assets/My photo.jpg"  alt="my pic" style="width:100px;">
-            <h2>About me </h2>
-            <p>My name is (Mohammed Al-Dahleh), an experienced engineer 
-                i graduated software engineering from the Ahliyya Amman University.</p>
+            <img src="./assets/My photo.jpg"  alt="my pic" style="width: 200px;">
+            <h2>Mohammed Al-Dahleh </h2>
+            <div class="text-block">
+                <p >My name is (Mohammed Al-Dahleh), an experienced engineer 
+                    i graduated software engineering from the Ahliyya Amman University.</p>
+            </div> 
         </section>
 
         <section>
@@ -55,7 +61,8 @@
     </main>
 </br>
 </br>
-    <footer>
+</br>
+    <footer class = "footer">
     <a href="#terms">Terms</a>
     <a href="#privacy">Privacy</a>
     <a href="#security">Security</a>
