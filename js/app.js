@@ -33,3 +33,4 @@ alert(`Welcome Mr ${name}`);
 }else{
     alert("Welcome")
 }
+alert ("hello");
