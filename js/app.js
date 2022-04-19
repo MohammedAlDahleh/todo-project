@@ -1,5 +1,5 @@
-/*' use strict ' ;
-var name = prompt  ("Please enter his/her name ?");
+' use strict ';
+/*var name = prompt  ("Please enter his/her name ?");
 console.log("Your name :" + name);
 var gender =  prompt ("Please enter your gender his/her ?");
 console.log("Your gender : " + gender);
@@ -32,5 +32,35 @@ alert(`Welcome Mr ${name}`);
     alert(`Welcome Ms ${name}`);
 }else{
     alert("Welcome")
+}*/
+
+
+
+let kurs = prompt("Are you in class bushra (yes/no) ?");
+
+let kurs1 = prompt("do you like JS (yes/no) ?");
+
+let help = prompt("do need any help (yes/no) ?");
+
+let answersArray = [];
+
+function checkAnswers(answer) {
+    if (answer === "") {
+        answersArray.push("invalid");
+    }else if (answer.toLowerCase() === "yes") {
+        answersArray.push("yes");
+    }else if (answer.toLowerCase() === "no"){
+        answersArray.push("no");
+    }
 }
-alert ("hello");*/
+checkAnswers(kurs);
+checkAnswers(kurs1);
+checkAnswers(help);
+
+function printAnswers(){
+    for (let i = 0; i < answersArray.length; i++) {
+        console.log(answersArray[i]);
+    }
+}
+printAnswers();
+
