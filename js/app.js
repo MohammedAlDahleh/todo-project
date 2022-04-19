@@ -30,7 +30,7 @@ alert(`Welcome Mr ${name}`);
 }else if (gender === "her")
 {
     alert(`Welcome Ms ${name}`);
-}else{
+}
 
 
 
@@ -62,4 +62,5 @@ function printAnswers(){
     }
 }
 printAnswers();
+
 
