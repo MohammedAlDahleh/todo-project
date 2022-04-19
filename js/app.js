@@ -1,5 +1,5 @@
 ' use strict ';
-/*var name = prompt  ("Please enter his/her name ?");
+var name = prompt  ("Please enter his/her name ?");
 console.log("Your name :" + name);
 var gender =  prompt ("Please enter your gender his/her ?");
 console.log("Your gender : " + gender);
@@ -31,8 +31,7 @@ alert(`Welcome Mr ${name}`);
 {
     alert(`Welcome Ms ${name}`);
 }else{
-    alert("Welcome")
-}*/
+
 
 
 
