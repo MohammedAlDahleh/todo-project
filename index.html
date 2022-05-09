@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link ref="stylesheet" href = "./Style.css">    
+    <link rel="stylesheet" type="text/css" href="./style/index.css" />
+ 
+    <script src="./js/app.js"></script>
+
+    
+ 
 </head>
 <br>
     <header>
@@ -13,9 +18,12 @@
         <img src="./assets/Task img.png"  alt="task image" style="width:100px;">
         <h1>ToDo</h1>
         <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="./about.html">About us</a>
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <Li><a href="#contact">Contact</a></Li>
+            <Li><a href="./about.html">About us</a></Li>
+          </ul>
+            
           </div>
     </header>
 </br>
@@ -25,7 +33,7 @@
 </br>
 <br>
     <main>
-        <table >
+        <table class="center" >
             <tr>
               <th>Task</th>
               <th>Status</th>
@@ -33,13 +41,16 @@
             <tr>
               <td>Task Day01</td>
               <td>Don't submtion</td>
+              <input type="checkbox" style="text-align:center;" ng-model="x.dedbuffer"> 
             </tr>
             <tr>
               <td>Task Day02</td>
+              <input type="checkbox" style="text-align:center;" ng-model="x.dedbuffer"> 
               <td>Done</td>
             </tr>
             <tr>
                 <td>Task Day03</td>
+                <input type="checkbox" style="text-align:center;" ng-model="x.dedbuffer"> 
                 <td>Not Yet</td>
               </tr>
           </table>
@@ -55,9 +66,8 @@
 </br>
 </br>
 </br>
+<footer class="footer">
 
- 
-<footer>
     <a href="#terms">Terms</a>
     <a href="#privacy">Privacy</a>
     <a href="#security">Security</a>

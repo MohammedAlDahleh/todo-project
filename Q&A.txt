@@ -1,0 +1,53 @@
+Task 3:
+
+Q1): What observations or questions do you have about what you’ve learned so far?
+All of think is good but I need to know more about steps of create new project and upload it to GitHub and upload from GitHub to my local.
+I'm confused of upload and download from GitHub and use Ubuntu
+
+Q2): How long did it take you to complete this assignment? And, before you started, how long did you think it 
+would take you to complete this assignment?
+about 2.5 hours
+and I think before to started 1 hours
+
+Favicon:-
+
+A favicon is a small image, so it should be a simple image with high contrast.
+To add a favicon to your website, either save your favicon image to the root directory of your webserver,
+or create a folder in the root directory called images, and save your favicon image in this folder.
+A common name for a favicon image is "favicon.ico".
+and must be use Favicon.cc ;Couse we need to convert the type of image to (ico)
+this is the syntax:
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+Inline and Block element :-
+
+Inline Elements:
+An inline element does not start on a new line.
+An inline element only takes up as much width as necessary.
+This is a <span> element inside a paragraph.
+
+Block-level Elements:
+A block-level element always starts on a new line,
+and the browsers automatically add some space (a margin) before and after the element.
+Two commonly used block elements are: <p> and <div>.
+
+
+Task 4:
+
+Q1) What observations or questions do you have about what you’ve learned so far?
+every think is good, I don't have any observations or questions.
+I'm so excited, and I need more.
+
+Q2) How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+I extrapolated an hour.
+I thought an hour and half.
+
+Task 5:
+
+Q1) What observations or questions do you have about what you’ve learned so far?
+actually i don't like CSS, I don't have any observations or questions,
+because i need to practice it more
+
+2)How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+I extrapolated an hour and half.
+I thought 3 hour and more.
